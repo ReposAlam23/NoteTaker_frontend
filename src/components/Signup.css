@@ -1,0 +1,7 @@
+button{
+    margin: 1rem;
+    height: 5vh;
+}
+button:hover{
+    background: #4d4c4c;
+}
