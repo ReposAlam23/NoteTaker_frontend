@@ -16,7 +16,7 @@ function Home() {
 
     
     const fetchData= async()=>{
-        let data = await axios.get("http://localhost:3004/v1//notes")
+        let data = await axios.get("https://notetaker-backend.onrender.com/v1//notes")
         setList(data.data)
         userid = 
         // console.log(list)
@@ -27,7 +27,7 @@ function Home() {
 
 
     const fetchSearchedData =async()=>{
-        // let data = await axios.get(`http://localhost:3004/v1/notes/search/:${userid}/:${search}`)
+        // let data = await axios.get(`https://notetaker-backend.onrender.com/v1/notes/search/:${userid}/:${search}`)
         // // setList(data.data)
         // console.log(data)
         // // console.log(list)

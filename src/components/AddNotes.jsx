@@ -10,7 +10,7 @@ function AddNotes() {
     const AddNotes= async(e)=>{
         e.preventDefault()
         try{
-            const data = await axios.post("http://localhost:3004/v1/notes/addnotes", form)
+            const data = await axios.post("https://notetaker-backend.onrender.com/v1/notes/addnotes", form)
             console.log(data)
             setTimeout(()=>{
                 navigate("/home")

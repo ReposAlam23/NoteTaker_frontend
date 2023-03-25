@@ -9,7 +9,7 @@ function Nav() {
     const handleDelete=()=>{
 
         const Delete= async()=>{
-            let deletedData = await axios.delete("http://localhost:3004/notes/deleteAll")
+            let deletedData = await axios.delete("https://notetaker-backend.onrender.com/notes/deleteAll")
             console.log(deletedData)
             navigate("/")
         }
