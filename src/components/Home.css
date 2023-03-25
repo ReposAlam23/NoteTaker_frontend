@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(161, 121, 121);
+}
+.search{
+    width: 80vw;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+.note-div{
+    background-color: #d6d6d6;
+    cursor: pointer;
+}
+.note-div:hover{
+    background-color: antiquewhite;
+}
+
+.title{
+    font-weight: 700;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem
+}
+.description, .time{
+    margin: 0.5rem 1rem;
+    padding: 0.5rem
+}
+
+/* POP UP SETTING */
+
+.popupdiv{
+    background-color: #966262;
+    left: 5%;
+    right: 5%;
+    top: 22%;
+    position: fixed;
+    height: 60vh;
+    width: 90vw
+}
