@@ -54,7 +54,7 @@ function Home() {
     const handleDelete= async(e)=>{
         try{
             const deleteID = e.target.value
-            let res = await axios.delete(`http://localhost:3004/v1/delete/:${deleteID}`)   
+            let res = await axios.delete(`https://notetaker-backend.onrender.com/v1/delete/:${deleteID}`)   
             setDeleteFlag(true)
         }catch(e){
             alert(e)
