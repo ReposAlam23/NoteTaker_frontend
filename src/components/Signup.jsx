@@ -20,7 +20,7 @@ function Signup() {
         }
 
         const Signupdata = async()=>{
-            let data = await axios.post("https://notetaker-backend.onrender.com/v1/signup", form)        
+            let data = await axios.post("https://notetaker-backend.onrender.com/v1/signup", form)  
                 // console.log(data.data.status)
                 if(data.data.status == "failed"){ 
                     setError({...error, message: data.data.message})

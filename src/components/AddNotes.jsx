@@ -12,9 +12,8 @@ function AddNotes() {
         try{
             const data = await axios.post("https://notetaker-backend.onrender.com/v1/notes/addnotes", form)
             console.log(data)
-            setTimeout(()=>{
-                navigate("/home")
-            }, 1000)
+            navigate("/home")
+            
         } catch(e){
             console.log(e);
         }
